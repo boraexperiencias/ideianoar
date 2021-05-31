@@ -63,7 +63,7 @@ if(isExperiencePage()) {
 
 
 
-var video_01 = Array.prototype.slice.call(element.querySelectorAll('ul.list-unstyled li strong'))
+var video_01 = Array.prototype.slice.call(document.querySelectorAll('ul.list-unstyled li strong'))
   .filter(function (el) {
     return (el.innerText.indexOf("video_01") !== -1)
   })[0];
